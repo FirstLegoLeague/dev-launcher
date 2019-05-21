@@ -1,0 +1,72 @@
+{
+    "listen": [
+        {
+            "type": "websocket",
+            "port": 13900
+        },
+        {
+            "type": "tcp",
+            "port": 13902
+        }
+    ],
+    "logging": "info",
+    "nodes": {
+        "public": "Exchange",
+        "protected": "Exchange",
+        "configuration": "TopicStore"
+    },
+    "bindings": [],
+    "users": {
+        "launcher": "lunchpass",
+        "protected-client": "propass",
+        "configuration": "confpass"
+    },
+    "rights": {
+        "": {
+            "subscribe": {
+                "public": true,
+                "protected": true,
+                "configuration": false
+            },
+            "publish": {
+                "public": true,
+                "protected": false,
+                "configuration": false
+            }
+        },
+        "protected-client": {
+            "subscribe": {
+                "public": true,
+                "protected": true,
+                "configuration": false
+            },
+            "publish": {
+                "public": true,
+                "protected": true,
+                "configuration": false
+            }
+        },
+        "configuration": {
+            "subscribe": {
+                "public": false,
+                "protected": false,
+                "configuration": [
+                    "config:*"
+                ]
+            },
+            "publish": {
+                "public": false,
+                "protected": false,
+                "configuration": [
+                    "config:*"
+                ]
+            }
+        },
+        "launcher": {
+            "subscribe": true,
+            "publish": true
+        }
+    },
+    "storage": "./storage/"
+}
+
