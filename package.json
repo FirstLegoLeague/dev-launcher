@@ -5,7 +5,10 @@
   "main": "index.js",
   "repository": "git@github.com:FirstLegoLeague/dev-launcher.git",
   "author": "Roy <2903801+2roy999@users.noreply.github.com>",
-  "license": "GPL-v3.0",
+  "license": "GPL-3.0",
+  "bin": {
+    "dev-launcher": "index.js"
+  },
   "devDependencies": {
     "@first-lego-league/eslint-config": "^1.0.0",
     "eslint": "^5.16.0",
@@ -17,8 +20,13 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "dependencies": {
+    "bluebird": "^3.5.5",
     "concurrently": "^4.1.0",
+    "cross-spawn": "^6.0.5",
+    "js-yaml": "^3.13.1",
+    "jsonfile": "^5.0.0",
     "mhub": "^0.9.1",
+    "mkdirp": "^0.5.1",
     "node-mock-server": "^0.23.8"
   }
 }

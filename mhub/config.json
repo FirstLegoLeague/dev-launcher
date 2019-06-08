@@ -17,7 +17,7 @@
     },
     "bindings": [],
     "users": {
-        "launcher": "lunchpass",
+        "launcher": "launchpass",
         "protected-client": "propass",
         "configuration": "confpass"
     },
@@ -67,6 +67,6 @@
             "publish": true
         }
     },
-    "storage": "./storage/"
+    "storage": "./data/mhub/"
 }
 
