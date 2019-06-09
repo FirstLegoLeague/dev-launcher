@@ -1,1 +1,4 @@
 extends: "@first-lego-league"
+
+#rules:
+#  promise/catch-or-return: off

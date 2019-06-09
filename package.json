@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "bluebird": "^3.5.5",
+    "caporal": "^1.2.0",
+    "colorette": "^1.0.8",
     "concurrently": "^4.1.0",
     "cross-spawn": "^6.0.5",
     "js-yaml": "^3.13.1",
