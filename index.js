@@ -17,7 +17,7 @@ caporal
   .option('--secret <secret>', 'The secret token. Default: secret', /[A-Za-z01-9]/g)
   .option('--mhub-pass <mhubPass>', 'The mhub protected password', /[A-Za-z01-9]/g)
   .argument('<moduleCommand>', 'The command to start the primary module')
-  .argument('[moduleArguments...]', 'The arguments to pass the primary module\' command')
+  .argument('[moduleArguments...]', 'The arguments to pass the primary module\'s command')
   .action((args, options) => {
     const main = new Main(args.moduleCommand, args.moduleArguments, options)
     main.start()
