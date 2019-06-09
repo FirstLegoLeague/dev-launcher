@@ -9,8 +9,14 @@
   "bin": {
     "dev-launcher": "index.js"
   },
+  "scripts": {
+    "lint": "eslint index.js \"lib/**/*.js\"",
+    "lint:fix": "eslint --fix index.js \"lib/**/*.js\"",
+    "depcheck": "depcheck"
+  },
   "devDependencies": {
     "@first-lego-league/eslint-config": "^1.0.0",
+    "depcheck": "^0.8.0",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
@@ -23,12 +29,10 @@
     "bluebird": "^3.5.5",
     "caporal": "^1.2.0",
     "colorette": "^1.0.8",
-    "concurrently": "^4.1.0",
     "cross-spawn": "^6.0.5",
     "js-yaml": "^3.13.1",
     "jsonfile": "^5.0.0",
     "mhub": "^0.9.1",
-    "mkdirp": "^0.5.1",
-    "node-mock-server": "^0.23.8"
+    "mkdirp": "^0.5.1"
   }
 }
