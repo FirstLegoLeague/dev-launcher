@@ -22,6 +22,7 @@ caporal
     'The mongo uri for the primary module. Default to: mongodb://localhost:27017/##module-name##')
   .option('--secret <secret>', 'The secret token. Default: secret', /[A-Za-z01-9]/g)
   .option('--mhub-pass <mhubPass>', 'The mhub protected password', /[A-Za-z01-9]/g)
+  .option('--no-color', 'Disable colors', caporal.BOOL)
   .option('--inspect [host:port]', 'Adding node --inspect options to the node process. ' +
     'Works only when module command omitted')
   .option('--inspect-brk [host:port]', 'Adding node --inspect-brk options to the node process. ' +

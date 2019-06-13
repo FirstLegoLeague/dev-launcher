@@ -24,6 +24,7 @@ For more options:
 --mongo-uri <mongoUri>                         The mongo uri for the primary module. Default to: mongodb://localhost:27017/##module-name##
 --secret <secret>                              The secret token. Default: secret
 --mhub-pass <mhubPass>                         The mhub protected password
+--no-color                                     Disable colors
 --inspect [host:port]                          Adding node --inspect options to the node process. Works only when module command omitted
 --inspect-brk [host:port]                      Adding node --inspect-brk options to the node process. Works only when module command omitted
 ```
