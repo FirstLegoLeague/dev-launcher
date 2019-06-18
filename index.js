@@ -22,6 +22,8 @@ caporal
   .option('--mhub-pass <mhubPass>', 'The mhub protected password', /[A-Za-z01-9]/g)
   .option('--mongo-uri <mongoUri>',
     'The mongo uri for the primary module. Default to: mongodb://localhost:27017/##module-name##')
+  .option('--mongo-dbpath <mongoDbpath>',
+    'The mongo uri for the primary module. Default to: mongodb://localhost:27017/##module-name##')
   .option('--no-color', 'Disable colors', caporal.BOOL)
   .option('--port, -p <port>', 'In which port to open the primary module. Default to: 3000', caporal.INT)
   .option('--secondary-modules, -s <secondaryModule>',

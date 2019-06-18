@@ -14,6 +14,9 @@
     "dev-launcher": "index.js",
     "devl": "index.js"
   },
+  "engines": {
+    "node": ">=8.x"
+  },
   "scripts": {
     "lint": "eslint index.js \"lib/**/*.js\"",
     "lint:fix": "eslint --fix index.js \"lib/**/*.js\"",
