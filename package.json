@@ -40,7 +40,7 @@
     "cross-spawn": "^6.0.5",
     "js-yaml": "^3.13.1",
     "jsonfile": "^5.0.0",
-    "mhub": "^0.9.1",
+    "mhub": "^1.0.0",
     "mkdirp": "^0.5.1",
     "winston": "^3.2.1"
   }
