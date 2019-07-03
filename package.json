@@ -20,7 +20,9 @@
   "scripts": {
     "lint": "eslint index.js \"lib/**/*.js\"",
     "lint:fix": "eslint --fix index.js \"lib/**/*.js\"",
-    "depcheck": "depcheck"
+    "depcheck": "depcheck",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@first-lego-league/eslint-config": "^1.0.0",
@@ -42,6 +44,8 @@
     "jsonfile": "^5.0.0",
     "mhub": "^0.9.1",
     "mkdirp": "^0.5.1",
-    "winston": "^3.2.1"
-  }
+    "winston": "^3.2.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
