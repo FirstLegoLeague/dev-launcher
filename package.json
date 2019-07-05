@@ -1,6 +1,6 @@
 {
   "name": "@first-lego-league/dev-launcher",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A Launcher simulation to run modules independently during development",
   "main": "index.js",
   "repository": "git@github.com:FirstLegoLeague/dev-launcher.git",
